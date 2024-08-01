@@ -25,8 +25,13 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
+<<<<<<< Updated upstream
     "name":"Player",
     "path":"folders/Sprites/Player.yy",
+=======
+    "name":"UI",
+    "path":"folders/Sprites/UI.yy",
+>>>>>>> Stashed changes
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
