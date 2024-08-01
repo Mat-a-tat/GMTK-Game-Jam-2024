@@ -38,7 +38,7 @@
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
-    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_player_ui","path":"sprites/spr_player_ui/spr_player_ui.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
