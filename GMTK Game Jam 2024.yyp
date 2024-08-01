@@ -39,6 +39,7 @@
     {"id":{"name":"o_Amaya","path":"objects/o_Amaya/o_Amaya.yy",},},
     {"id":{"name":"o_Bye","path":"objects/o_Bye/o_Bye.yy",},},
     {"id":{"name":"o_Hello","path":"objects/o_Hello/o_Hello.yy",},},
+    {"id":{"name":"obj_test27","path":"objects/obj_test27/obj_test27.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"id":{"name":"spr_player_ui","path":"sprites/spr_player_ui/spr_player_ui.yy",},},
