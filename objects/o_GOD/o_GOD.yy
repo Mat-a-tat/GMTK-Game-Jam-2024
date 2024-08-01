@@ -6,8 +6,8 @@
   "name":"o_GOD",
   "overriddenProperties":[],
   "parent":{
-    "name":"GMTK Game Jam 2024",
-    "path":"GMTK Game Jam 2024.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
