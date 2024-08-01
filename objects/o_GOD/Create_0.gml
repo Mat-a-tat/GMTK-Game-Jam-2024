@@ -1,9 +1,6 @@
 // Hello World
 
-variable = 1;
-<<<<<<< Updated upstream
+variable = 2;
+hello = false;
+mathew = 4;
 
-hello = true;
-=======
-mathew = 1;
->>>>>>> Stashed changes
