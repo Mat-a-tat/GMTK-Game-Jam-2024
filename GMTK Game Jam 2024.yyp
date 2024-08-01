@@ -36,6 +36,7 @@
   },
   "name":"GMTK Game Jam 2024",
   "resources":[
+    {"id":{"name":"o_Amaya","path":"objects/o_Amaya/o_Amaya.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"id":{"name":"spr_player_ui","path":"sprites/spr_player_ui/spr_player_ui.yy",},},
