@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"o_Amaya",
+  "%Name":"o_Hello",
   "eventList":[],
   "managed":true,
-  "name":"o_Amaya",
+  "name":"o_Hello",
   "overriddenProperties":[],
   "parent":{
-    "name":"NPC",
-    "path":"folders/Objects/NPC.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
