@@ -6,8 +6,8 @@
   "name":"obj_test27",
   "overriddenProperties":[],
   "parent":{
-    "name":"GMTK Game Jam 2024",
-    "path":"GMTK Game Jam 2024.yyp",
+    "name":"Player",
+    "path":"folders/Objects/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

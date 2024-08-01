@@ -6,8 +6,8 @@
   "name":"o_Bye",
   "overriddenProperties":[],
   "parent":{
-    "name":"GMTK Game Jam 2024",
-    "path":"GMTK Game Jam 2024.yyp",
+    "name":"Enviorment",
+    "path":"folders/Objects/Enviorment.yy",
   },
   "parentObjectId":null,
   "persistent":false,
