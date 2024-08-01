@@ -38,7 +38,11 @@
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_player_ui","path":"sprites/spr_player_ui/spr_player_ui.yy",},},
+=======
+    {"id":{"name":"spr_player_enviro","path":"sprites/spr_player_enviro/spr_player_enviro.yy",},},
+>>>>>>> Stashed changes
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
