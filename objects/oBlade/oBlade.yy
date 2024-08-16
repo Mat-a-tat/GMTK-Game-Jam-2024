@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sBlade",
+    "path":"sprites/sBlade/sBlade.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
