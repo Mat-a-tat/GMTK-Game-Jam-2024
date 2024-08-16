@@ -42,6 +42,7 @@
     {"id":{"name":"rBase","path":"rooms/rBase/rBase.yy",},},
     {"id":{"name":"rCreditScreen","path":"rooms/rCreditScreen/rCreditScreen.yy",},},
     {"id":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
+    {"id":{"name":"resurrect_64_8x","path":"sprites/resurrect_64_8x/resurrect_64_8x.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"sBlade","path":"sprites/sBlade/sBlade.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
