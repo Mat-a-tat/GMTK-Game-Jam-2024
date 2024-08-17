@@ -73,8 +73,8 @@ else if (grav != 0)
 	grav -= grav_intensity;
 }
 
-vsp = v_direction * spd;
-y += vsp + grav;
+vsp = (v_direction * spd) + grav;
+y += vsp;
 
 #endregion
 
