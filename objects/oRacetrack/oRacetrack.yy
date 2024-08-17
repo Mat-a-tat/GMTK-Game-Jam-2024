@@ -3,6 +3,7 @@
   "%Name":"oRacetrack",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"oRacetrack",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sRacetrack",
-    "path":"sprites/sRacetrack/sRacetrack.yy",
+    "name":"sBladeOutline",
+    "path":"sprites/sBladeOutline/sBladeOutline.yy",
   },
   "spriteMaskId":null,
   "visible":true,
