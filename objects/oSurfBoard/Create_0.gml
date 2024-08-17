@@ -17,3 +17,7 @@ decel = 0.2;
 angle_1 = 0;
 angle_2 = 360;
 angle_3 = 0;
+
+// Min-Max Vertical Movement Height
+max_y_height = 316;
+min_y_height = 535;
