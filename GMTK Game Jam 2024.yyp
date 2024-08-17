@@ -37,6 +37,7 @@
   "name":"GMTK Game Jam 2024",
   "resources":[
     {"id":{"name":"oBlade","path":"objects/oBlade/oBlade.yy",},},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oObstacle","path":"objects/oObstacle/oObstacle.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSurfBoard","path":"objects/oSurfBoard/oSurfBoard.yy",},},
