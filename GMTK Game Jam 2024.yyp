@@ -37,6 +37,7 @@
   },
   "name":"GMTK Game Jam 2024",
   "resources":[
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"oAvatar","path":"objects/oAvatar/oAvatar.yy",},},
     {"id":{"name":"oBlade","path":"objects/oBlade/oBlade.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
@@ -47,6 +48,7 @@
     {"id":{"name":"oPlayer_Board","path":"objects/oPlayer_Board/oPlayer_Board.yy",},},
     {"id":{"name":"oRacetrack","path":"objects/oRacetrack/oRacetrack.yy",},},
     {"id":{"name":"oScore","path":"objects/oScore/oScore.yy",},},
+    {"id":{"name":"oTitleScreenText","path":"objects/oTitleScreenText/oTitleScreenText.yy",},},
     {"id":{"name":"rBase","path":"rooms/rBase/rBase.yy",},},
     {"id":{"name":"rCreditScreen","path":"rooms/rCreditScreen/rCreditScreen.yy",},},
     {"id":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
@@ -58,7 +60,6 @@
     {"id":{"name":"sMinimapTrackerLevel","path":"sprites/sMinimapTrackerLevel/sMinimapTrackerLevel.yy",},},
     {"id":{"name":"sMinimapTrackerMap","path":"sprites/sMinimapTrackerMap/sMinimapTrackerMap.yy",},},
     {"id":{"name":"sPlayer_Board","path":"sprites/sPlayer_Board/sPlayer_Board.yy",},},
-    {"id":{"name":"sRacetrack","path":"sprites/sRacetrack/sRacetrack.yy",},},
     {"id":{"name":"sUI","path":"sprites/sUI/sUI.yy",},},
   ],
   "resourceType":"GMProject",
