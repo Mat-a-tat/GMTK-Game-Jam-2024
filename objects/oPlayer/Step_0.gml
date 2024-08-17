@@ -27,6 +27,9 @@ moveDown = keyboard_check(vk_down);
 
 v_direction = (moveDown - moveUp); // Keeps track of direction
 
+// reset the spd variable, when changing directions
+
+
 	// Acceleration
 if (v_direction != 0)
 {
@@ -35,7 +38,6 @@ if (v_direction != 0)
 		spd = spd + (accel * decel);
 	}
 }
-
 else if (v_direction == 0)
 {
 	spd = 0;
@@ -69,17 +71,6 @@ else
 {
 	image_angle = 0;
 }
-
-/* // FIX: totally broken
-image_angle = image_angle + vsp;
-if (image_angle <= 315) && (image_angle > 45)
-{
-	image_angle = 315;
-}
-else if (image_angle <= 45) && (image_angle > 0)
-{
-	image_angle = 45;
-} */
 
 // Increase Score if Touching Racetrack
 // TODO: Max score will be the number of frames that the gameplay lasts

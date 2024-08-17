@@ -19,7 +19,8 @@ angle_2 = 360;
 angle_3 = 0;
 
 // Min-Max Vertical Movement Height
-max_y_height = 316;
+// IF YOU CHANGE BLADE HEIGHT, CHANGE THESE VARIABLES
+max_y_height = 178;
 min_y_height = 535;
 
 // Score
