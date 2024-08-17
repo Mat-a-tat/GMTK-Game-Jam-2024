@@ -12,10 +12,13 @@ spd = 0;
 max_spd = 5;
 accel = 1;
 decel = 0.2;
+grav = 0;
+grav_intensity = .3
 
 // Min-Max Vertical Movement Height
 // IF YOU CHANGE BLADE HEIGHT, CHANGE THESE VARIABLES
-max_y_height = 178;
+blade_height = 178;
+max_y_height = blade_height - 60;
 min_y_height = 535;
 
 // Score

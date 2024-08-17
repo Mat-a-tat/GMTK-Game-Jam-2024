@@ -1,4 +1,6 @@
 
+#region Basic Movement
+
 // Horizontal Movement
 if is_surfing
 {
@@ -33,7 +35,7 @@ if (keyboard_check_released (vk_down)) || (keyboard_check_released (vk_up))
 	spd = 0;
 }
 
-	// Acceleration
+// Acceleration
 if (v_direction != 0)
 {
 	if (spd < max_spd)
@@ -45,21 +47,36 @@ else if (v_direction == 0)
 {
 	spd = 0;
 }
+#endregion
 
-// Limit the height that the player can surf (matching the blade)
-if (y < max_y_height)
+#region Vertical Limits | Gravity
+// Limit the player vertical space. Being above the blade produces escalating gravity
+if (y < blade_height)
 {
-	y = max_y_height;
-	spd = 0;
+	if (y < max_y_height)
+	{
+		spd = 0
+		y += 1
+	}
+	else
+	{
+		grav += grav_intensity;
+	}
 }
 else if (y > min_y_height)
 {
 	y = min_y_height;
 	spd = 0;
 }
+else if (grav != 0)
+{
+	grav -= grav_intensity;
+}
 
 vsp = v_direction * spd;
-y += vsp;
+y += vsp + grav;
+
+#endregion
 
 // Tilt Board Based on Movement
 if moveDown
