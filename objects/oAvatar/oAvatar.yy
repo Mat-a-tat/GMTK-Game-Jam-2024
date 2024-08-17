@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sAvatar",
-    "path":"sprites/sAvatar/sAvatar.yy",
+    "name":"character_sprite",
+    "path":"sprites/character_sprite/character_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
