@@ -79,6 +79,27 @@ y += vsp;
 #endregion
 
 // Tilt Board Based on Movement
+// create a range of 90 to -90 degrees, then translate that into the angle?
+// when player jumps, board angle should come down with gravity
+
+if moveDown
+{
+	if (angle > -25)
+	{
+		angle -= 2;
+	}
+}
+else if moveUp
+{
+	if (angle < 25)
+	{
+		angle += 2; 
+	}
+}
+
+image_angle = angle;
+
+/*
 if moveDown
 {
 	image_angle = 345;
@@ -91,6 +112,9 @@ else
 {
 	image_angle = 0;
 }
+*/
+
+
 
 // Increase Score if Touching Racetrack
 // TODO: Max score will be the number of frames that the gameplay lasts

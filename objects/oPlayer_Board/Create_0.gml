@@ -23,3 +23,6 @@ min_y_height = 535;
 
 // Score
 player_score = 0;
+
+// Board Tilt Variables
+angle = 0;
