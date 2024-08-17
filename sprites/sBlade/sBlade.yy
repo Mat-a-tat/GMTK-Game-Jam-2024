@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":0,
-  "bbox_right":63,
+  "bbox_right":0,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -23,7 +23,7 @@
   ],
   "name":"sBlade",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"Enviorment",
     "path":"folders/Sprites/Enviorment.yy",
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":1,
 }
