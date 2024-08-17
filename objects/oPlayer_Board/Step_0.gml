@@ -27,8 +27,11 @@ moveDown = keyboard_check(vk_down);
 
 v_direction = (moveDown - moveUp); // Keeps track of direction
 
-// reset the spd variable, when changing directions
-
+// This code fixes a bug. It resets the spd variable when changing directions.
+if (keyboard_check_released (vk_down)) || (keyboard_check_released (vk_up))
+{
+	spd = 0;
+}
 
 	// Acceleration
 if (v_direction != 0)

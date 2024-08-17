@@ -1,0 +1,1 @@
+surf_board_id = oPlayer_Board.id;

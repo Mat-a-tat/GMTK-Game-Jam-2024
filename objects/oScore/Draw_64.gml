@@ -1,1 +1,1 @@
-draw_text_color(32,32,"Player Score: " + string(oPlayer.player_score), c_lime,c_lime,c_green,c_green,1);
+draw_text_color(32,32,"Player Score: " + string(oPlayer_Board.player_score), c_lime,c_lime,c_green,c_green,1);
