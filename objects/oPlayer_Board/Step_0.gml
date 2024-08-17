@@ -79,9 +79,6 @@ y += vsp;
 #endregion
 
 // Tilt Board Based on Movement
-// create a range of 90 to -90 degrees, then translate that into the angle?
-// when player jumps, board angle should come down with gravity
-
 if moveDown
 {
 	if (angle > -25)
@@ -96,23 +93,18 @@ else if moveUp
 		angle += 2; 
 	}
 }
-
+else // Normalize to 0 when there's no input
+{
+	if angle > 0
+	{
+		angle -= 1;
+	}
+	else if angle < 0
+	{
+		angle += 1;	
+	}
+}
 image_angle = angle;
-
-/*
-if moveDown
-{
-	image_angle = 345;
-}
-else if moveUp
-{
-	image_angle = 15;
-}
-else
-{
-	image_angle = 0;
-}
-*/
 
 
 
