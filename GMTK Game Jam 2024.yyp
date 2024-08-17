@@ -46,6 +46,7 @@
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"sBlade","path":"sprites/sBlade/sBlade.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"sPlayerWithBoard","path":"sprites/sPlayerWithBoard/sPlayerWithBoard.yy",},},
     {"id":{"name":"sUI","path":"sprites/sUI/sUI.yy",},},
   ],
   "resourceType":"GMProject",
