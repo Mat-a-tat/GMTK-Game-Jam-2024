@@ -25,10 +25,14 @@ if keyboard_check_pressed(vk_shift)
 		break;
 	}
 }
-// DEBUG Skip Room
+// DEBUG Skip Room/Return Room
 if keyboard_check_pressed(vk_enter)
 {
 	room_goto_next();
+}
+if keyboard_check_pressed(vk_backspace)
+{
+	room_goto_previous();
 }
 
 // Vertical Movement
