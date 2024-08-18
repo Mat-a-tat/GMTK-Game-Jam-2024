@@ -114,5 +114,4 @@ image_angle = angle;
 if (place_meeting(x,y,race_track_parts))
 {
 	score += 1;
-	show_debug_message(score);
 }

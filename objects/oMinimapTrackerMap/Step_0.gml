@@ -8,3 +8,5 @@ if (oMinimapTrackerLevel.is_tracking) && (oPlayer_Board.is_surfing)
 	x += minimap_tracker_spd_x;
 	y += minimap_tracker_spd_y;
 }
+
+show_debug_message("{0},{1}",minimap_px_length,minimap_px_height);
