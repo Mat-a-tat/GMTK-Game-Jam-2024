@@ -17,7 +17,7 @@ grav_intensity = .3
 
 // Min-Max Vertical Movement Height
 // IF YOU CHANGE BLADE HEIGHT, CHANGE THESE VARIABLES
-blade_height = 178;
+blade_height = 270;
 //max_y_height = blade_height - 60;
 min_y_height = 500;
 race_track_parts = [oRacetrackBlock, oRacetrackCorner]
