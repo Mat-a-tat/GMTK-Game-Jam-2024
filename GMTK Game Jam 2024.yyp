@@ -82,8 +82,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rBase","path":"rooms/rBase/rBase.yy",},},
     {"roomId":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
+    {"roomId":{"name":"rBase","path":"rooms/rBase/rBase.yy",},},
     {"roomId":{"name":"rCreditScreen","path":"rooms/rCreditScreen/rCreditScreen.yy",},},
   ],
   "templateType":"game",

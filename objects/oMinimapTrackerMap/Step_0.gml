@@ -9,7 +9,6 @@ var relative_player_y_location = (oPlayer_Board.y / relative_y_percent) + 40;
 if (oMinimapTrackerLevel.is_tracking) && (oPlayer_Board.is_surfing)
 {
 	x += minimap_tracker_spd_x;
-	//y += minimap_tracker_spd_y;
 	y = relative_player_y_location;
 }
 

@@ -1,6 +1,10 @@
 
 draw_set_font(Font1);
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
 
-draw_text_transformed_color(x,y,"Press [E] To Start",1,1,0,c_white,c_white,c_white,c_white,1);
+draw_text_transformed_color(_vx,_vy,"Press [E] To Start",1,1,0,c_white,c_white,c_white,c_white,1);
+
+draw_set_font(-1);
+draw_set_halign(-1);
+draw_set_valign(-1);
