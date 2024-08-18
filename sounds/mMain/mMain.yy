@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"mBackground",
+  "%Name":"mMain",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":84.23841,
-  "name":"mBackground",
+  "duration":206.08696,
+  "name":"mMain",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mBackground.wav",
+  "soundFile":"mMain.ogg",
   "type":0,
-  "volume":0.3,
+  "volume":1.0,
 }

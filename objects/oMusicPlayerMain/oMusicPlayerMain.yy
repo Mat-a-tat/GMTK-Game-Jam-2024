@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oCreateBlades",
+  "%Name":"oMusicPlayerMain",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oCreateBlades",
+  "name":"oMusicPlayerMain",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enviorment",
-    "path":"folders/Objects/Enviorment.yy",
+    "name":"Game",
+    "path":"folders/Objects/Game.yy",
   },
   "parentObjectId":null,
   "persistent":false,
