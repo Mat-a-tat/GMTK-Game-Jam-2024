@@ -1,3 +1,6 @@
+// Be drawn on top of the minimap
+depth = oMinimap.depth - 50;
+
 // These variable calculate dimensions
 minimap_px_height = oMinimap.minimap_height_y1 - oMinimap.minimap_height_y2;
 minimap_px_length = oMinimap.minimap_width_x2 - oMinimap.minimap_width_x1;
@@ -19,6 +22,6 @@ player_y_relative_height = 0 + oPlayer_Board.y;
 x = oMinimap.minimap_width_x1;
 y = (player_y_relative_height / relative_y_percent) - 40;
 
-
+show_debug_message(minimap_px_height);
 
 

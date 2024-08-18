@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oMinimapTrackerMap",
+  "%Name":"oMinimapRoom10",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oMinimapTrackerMap",
+  "name":"oMinimapRoom10",
   "overriddenProperties":[],
   "parent":{
-    "name":"Minimap",
-    "path":"folders/Objects/UI/Minimap.yy",
+    "name":"Room Minimaps",
+    "path":"folders/Objects/UI/Minimap/Room Minimaps.yy",
   },
   "parentObjectId":null,
   "persistent":false,
