@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oRacetrackCorner",
+  "%Name":"oRoomChanger",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oRacetrackCorner",
+  "name":"oRoomChanger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Path",
-    "path":"folders/Objects/Enviorment/Path.yy",
+    "name":"Enviorment",
+    "path":"folders/Objects/Enviorment.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPath",
-    "path":"sprites/sPath/sPath.yy",
+    "name":"sBlade",
+    "path":"sprites/sBlade/sBlade.yy",
   },
   "spriteMaskId":null,
   "visible":true,

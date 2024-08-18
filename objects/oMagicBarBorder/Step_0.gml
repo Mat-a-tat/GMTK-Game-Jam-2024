@@ -1,13 +1,14 @@
 // Todo: Need to be able to drain mana at will
+global.magic = magic
 
 //Decrease Magic
 if (keyboard_check(vk_space))
 {
-	if (magic_progress_bar > 0) && (increase_magic == false)
+	if (magic > 0) && (increase_magic == false)
 	{
 		decrease_magic = true;
 	}
-	else if (magic_progress_bar == 0) || (increase_magic = true)
+	else if (magic == 0) || (increase_magic = true)
 	{
 		decrease_magic = false;
 	}
@@ -17,12 +18,12 @@ if (keyboard_check(vk_space))
 if (!keyboard_check(vk_space))
 {
 	decrease_magic = false;
-	if magic_progress_bar < 100
+	if magic < 100
 	{
 		increase_magic = true;
 	}
 }
-if (magic_progress_bar == 0)
+if (magic == 0)
 {
 	increase_magic = true;
 }
@@ -30,25 +31,25 @@ if (magic_progress_bar == 0)
 // Modify the Bar
 if decrease_magic == true
 {
-	if (magic_progress_bar > 0)
+	if (magic > 0)
 	{
-		magic_progress_bar -= 1;
+		magic -= 1;
 	}
 	else
 	{
-		magic_progress_bar = 0;
+		magic = 0;
 		decrease_magic = false;
 	}
 }
 if increase_magic == true
 {
-	if (magic_progress_bar < 100)
+	if (magic < 100)
 	{
-		magic_progress_bar += 1;
+		magic += 1;
 	}
 	else
 	{
-		magic_progress_bar = 100;
+		magic = 100;
 		increase_magic = false;
 	}
 	if (keyboard_check_pressed(vk_space))
@@ -57,4 +58,4 @@ if increase_magic == true
 	}
 }
 
-show_debug_message("{0},increase:{1},decrease:{2}",magic_progress_bar,increase_magic,decrease_magic);
+show_debug_message("{0},increase:{1},decrease:{2}",magic,increase_magic,decrease_magic);

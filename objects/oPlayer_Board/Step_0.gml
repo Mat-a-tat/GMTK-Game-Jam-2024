@@ -1,3 +1,7 @@
+global.player_y = y;
+global.player_grav = grav;
+global.player_spd = spd;
+
 #region Basic Movement
 
 // Horizontal Movement
@@ -75,30 +79,30 @@ if y + vsp <= min_y_height
 // Tilt Board Based on Movement
 if moveDown
 {
-	if (angle > -25)
+	if (global.angle > -25)
 	{
-		angle -= 2;
+		global.angle -= 2;
 	}
 }
 else if moveUp
 {
-	if (angle < 25)
+	if (global.angle < 25)
 	{
-		angle += 2; 
+		global.angle += 2; 
 	}
 }
 else // Normalize to 0 when there's no input
 {
-	if angle > 0
+	if global.angle > 0
 	{
-		angle -= 1;
+		global.angle -= 1;
 	}
-	else if angle < 0
+	else if global.angle < 0
 	{
-		angle += 1;	
+		global.angle += 1;	
 	}
 }
-image_angle = angle;
+image_angle = global.angle;
 
 #endregion
 
@@ -118,4 +122,17 @@ if (place_meeting(x,y-10,oObstacleBubble))
 	show_debug_message("Pop!");
 	grav = -3;
 }
+#endregion 
+
+#region Debugg Tools
+
+if (keyboard_check_pressed(ord("N")))
+{
+	room_goto_next();
+}
+if (keyboard_check_pressed(ord("B")))
+{
+	room_goto_previous();
+}
+
 #endregion 

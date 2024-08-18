@@ -8,12 +8,13 @@ is_surfing = true;
 surf_spd = 3;
 
 //Acceleration
-spd = 0;
 max_spd = 5;
 accel = 1;
 decel = 0.2;
 grav = 0;
 grav_intensity = .3
+grav = global.player_grav
+spd = global.player_spd
 
 // Min-Max Vertical Movement Height
 // IF YOU CHANGE BLADE HEIGHT, CHANGE THESE VARIABLES
@@ -22,8 +23,5 @@ blade_height = 270;
 min_y_height = 500;
 race_track_parts = [oRacetrackBlock, oRacetrackCorner]
 
-// Score
-score = 0;
-
-// Board Tilt Variables
-angle = 0;
+// Setting via a global makes it transferable between rooms. 
+y = global.player_y

@@ -12,6 +12,6 @@ bar_height = map_y1 - map_y2;
 
 // instance_create_layer(bottom_left_x,bottom_left_y,"UI",oMagicProgressBar);
 
-magic_progress_bar = 100;
 increase_magic = false;
 decrease_magic = false;
+magic = global.magic
