@@ -1,4 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-blade_height = 178;
+
+//Change blade height
+blade_height = oCreateBlades.blade_height;
 spd = 2;
+
+/*
+rnd_number = irandom_range(0,4);
+alarm[0] = 1*fps;
+*/

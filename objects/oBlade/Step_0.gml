@@ -10,3 +10,5 @@ if (place_meeting(x, y, oPlayer_Board) && y + spd > blade_height)
 	}
 	//if (place_meeting(x, y+1, oPlayer))
 }
+
+
