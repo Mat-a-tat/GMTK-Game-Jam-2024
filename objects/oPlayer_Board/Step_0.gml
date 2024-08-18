@@ -109,15 +109,6 @@ image_angle = global.angle;
 
 #region Collision
 
-// Increase Score if Touching Racetrack
-// TODO: Max score will be the number of frames that the gameplay lasts
-// compare player score with max score, and turn into a percentage
-
-if (place_meeting(x,y,race_track_parts))
-{
-	score += 1;
-}
-
 if (place_meeting(x,y-10,oObstacleBubble))
 {
 	show_debug_message("Pop!");

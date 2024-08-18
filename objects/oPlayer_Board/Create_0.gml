@@ -1,3 +1,9 @@
+// Setting via a global makes it transferable between rooms. 
+
+y = global.player_y
+grav = global.player_grav
+spd = global.player_spd
+
 // Vertical Speed
 vsp = 0;
 v_direction = 0;
@@ -8,20 +14,13 @@ is_surfing = true;
 surf_spd = 3;
 
 //Acceleration
-max_spd = 5;
+max_spd = 3.5;
 accel = 1;
 decel = 0.2;
-grav = 0;
 grav_intensity = .3
-grav = global.player_grav
-spd = global.player_spd
 
 // Min-Max Vertical Movement Height
 // IF YOU CHANGE BLADE HEIGHT, CHANGE THESE VARIABLES
 blade_height = 270;
 //max_y_height = blade_height - 60;
 min_y_height = 500;
-race_track_parts = [oRacetrackBlock, oRacetrackCorner]
-
-// Setting via a global makes it transferable between rooms. 
-y = global.player_y
