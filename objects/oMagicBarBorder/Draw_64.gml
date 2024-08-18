@@ -1,4 +1,4 @@
-var bar_x1 = oMinimap.gui_width - (map_x2-map_x1) - 20 - 5 - 28;  // -minimap length, -room offset, -buffer, -bar width
+var bar_x1 = oMinimap.gui_width - (map_x2-map_x1) - 20 - 5 - 15;  // -minimap length, -room offset, -buffer, -bar width
 var bar_x2 = oMinimap.gui_width - (map_x2-map_x1) - 20 - 5;
 
 draw_rectangle_color(bar_x1,map_y1+1,bar_x2,map_y2-1,c_white,c_white,c_white,c_white,true);
