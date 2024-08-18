@@ -9,8 +9,8 @@
   "name":"oMinimapTrackerLevel",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objects/UI.yy",
+    "name":"Minimap",
+    "path":"folders/Objects/UI/Minimap.yy",
   },
   "parentObjectId":null,
   "persistent":false,
