@@ -1,10 +1,9 @@
 /// @description Hold Space to reveal the outline
 if (keyboard_check(vk_space)) && (oMagicBarBorder.decrease_magic)
 {
-    image_alpha = .5
+   if image_alpha < 0.5 { image_alpha = image_alpha + fade_speed; }
 }
 if ((!keyboard_check(vk_space)) || (oMagicBarBorder.increase_magic))
 {
-    image_alpha = 0
+    if image_alpha > 0 { image_alpha = image_alpha - fade_speed; }
 }
-
