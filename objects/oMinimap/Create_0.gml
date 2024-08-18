@@ -8,5 +8,7 @@ minimap_width_x2 = gui_width - 20; //top right
 minimap_height_y1 = (room_height / 10) + 40; // bottom left
 minimap_height_y2 = 0 + 40; // top right
 
+x = minimap_width_x1;
+y = minimap_height_y2;
 
 instance_create_layer(x,y,"UI",oMinimapTrackerMap);
