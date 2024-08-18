@@ -1,4 +1,3 @@
-
 #region Basic Movement
 
 // Horizontal Movement
@@ -50,34 +49,29 @@ else if (v_direction == 0)
 #endregion
 
 #region Vertical Limits | Gravity
-// Limit the player vertical space. Being above the blade produces escalating gravity
+// Being above the blade generates gravity, which dissaptes on contact with blade
 if (y < blade_height)
 {
-	if (y < max_y_height)
-	{
-		spd = 0
-		y += 1
-	}
-	else
-	{
-		grav += grav_intensity;
-	}
-}
-else if (y > min_y_height)
-{
-	y = min_y_height;
-	spd = 0;
+	grav += grav_intensity;
 }
 else if (grav != 0)
 {
 	grav -= grav_intensity;
 }
+#endregion
+
+#region Speed
 
 vsp = (v_direction * spd) + grav;
-y += vsp;
+// Check that our current movespeed dosent zip us out of bounds
+if y + vsp <= min_y_height
+{
+	y += vsp;
+}
 
 #endregion
 
+#region Tilt Direction
 // Tilt Board Based on Movement
 if moveDown
 {
@@ -106,12 +100,22 @@ else // Normalize to 0 when there's no input
 }
 image_angle = angle;
 
+#endregion
 
+#region Collision
 
 // Increase Score if Touching Racetrack
 // TODO: Max score will be the number of frames that the gameplay lasts
 // compare player score with max score, and turn into a percentage
+
 if (place_meeting(x,y,race_track_parts))
 {
 	score += 1;
 }
+
+if (place_meeting(x,y-10,oObstacleBubble))
+{
+	show_debug_message("Pop!");
+	grav = -3;
+}
+#endregion 
