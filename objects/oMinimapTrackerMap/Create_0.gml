@@ -11,7 +11,6 @@ minimap_spd_percent_x = gui_width / minimap_px_length;
 minimap_spd_percent_y = gui_height / minimap_px_height;
 
 //Minimap Dot Location
-
 	//Calculates the difference between the screen and minimap size into a percent
 relative_x_percent = minimap_px_length / gui_width;
 relative_y_percent = minimap_px_height / gui_height;
@@ -21,6 +20,10 @@ player_x_relative_width = 0 + oPlayer_Board.x;
 player_y_relative_height = 0 + oPlayer_Board.y;
 
 	// Sets the tracker spawn point to be relative to where the player is in the room
-x = (player_x_relative_width * relative_x_percent);
-y = oMinimap.minimap_height_y1 + (player_y_relative_height * relative_y_percent);
+
+x = 700 + (player_x_relative_width * relative_x_percent); // target 700
+y = (player_y_relative_height * relative_y_percent); // target 30
+
+
+
 
