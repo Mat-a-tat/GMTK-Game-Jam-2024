@@ -7,7 +7,7 @@ if is_surfing
 }
 
 // DEBUG Stop surfing
-if keyboard_check_pressed(vk_space)
+if keyboard_check_pressed(vk_shift)
 {
 	switch (is_surfing)
 	{

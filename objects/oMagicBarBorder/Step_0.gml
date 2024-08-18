@@ -1,19 +1,20 @@
+// Todo: Need to be able to drain mana at will
+
 //Decrease Magic
-if (keyboard_check(vk_shift))
+if (keyboard_check(vk_space))
 {
-	increase_magic = false;
-	if (!magic_progress_bar >= 0)
+	if (magic_progress_bar > 0) && (increase_magic == false)
 	{
 		decrease_magic = true;
 	}
-	else if (magic_progress_bar == 0)
+	else if (magic_progress_bar == 0) || (increase_magic = true)
 	{
 		decrease_magic = false;
 	}
 }
 
 //Increase Magic
-if (!keyboard_check(vk_shift))
+if (!keyboard_check(vk_space))
 {
 	decrease_magic = false;
 	if magic_progress_bar < 100
@@ -21,13 +22,17 @@ if (!keyboard_check(vk_shift))
 		increase_magic = true;
 	}
 }
+if (magic_progress_bar == 0)
+{
+	increase_magic = true;
+}
 
 // Modify the Bar
 if decrease_magic == true
 {
 	if (magic_progress_bar > 0)
 	{
-		magic_progress_bar -= 2;
+		magic_progress_bar -= 1;
 	}
 	else
 	{
@@ -44,6 +49,10 @@ if increase_magic == true
 	else
 	{
 		magic_progress_bar = 100;
+		increase_magic = false;
+	}
+	if (keyboard_check_pressed(vk_space))
+	{
 		increase_magic = false;
 	}
 }
