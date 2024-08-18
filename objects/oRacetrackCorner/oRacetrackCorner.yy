@@ -9,8 +9,8 @@
   "name":"oRacetrackCorner",
   "overriddenProperties":[],
   "parent":{
-    "name":"Path",
-    "path":"folders/Objects/Enviorment/Path.yy",
+    "name":"Path Tiles",
+    "path":"folders/Objects/Enviorment/Path/Path Tiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

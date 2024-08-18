@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oRacetrack",
+  "%Name":"oPathFullLevel1_1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oRacetrack",
+  "name":"oPathFullLevel1_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Path",
-    "path":"folders/Objects/Enviorment/Path.yy",
+    "name":"Path Full",
+    "path":"folders/Objects/Enviorment/Path/Path Full.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBladeOutline",
-    "path":"sprites/sBladeOutline/sBladeOutline.yy",
+    "name":"sLevel1Outline_1",
+    "path":"sprites/sLevel1Outline_1/sLevel1Outline_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
