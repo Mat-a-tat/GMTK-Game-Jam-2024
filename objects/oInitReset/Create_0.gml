@@ -7,4 +7,4 @@ global.player_y = 0;
 global.magic = 100;
 global.player_spd = 0;
 global.player_grav = 0;
-room_goto_next()
+room_goto_next();

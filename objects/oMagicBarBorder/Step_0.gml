@@ -1,5 +1,4 @@
-// Todo: Need to be able to drain mana at will
-global.magic = magic
+global.magic = magic;
 
 //Decrease Magic
 if (keyboard_check(vk_space))
@@ -58,4 +57,4 @@ if increase_magic == true
 	}
 }
 
-show_debug_message("{0},increase:{1},decrease:{2}",magic,increase_magic,decrease_magic);
+// show_debug_message("{0},increase:{1},decrease:{2}",magic,increase_magic,decrease_magic);
