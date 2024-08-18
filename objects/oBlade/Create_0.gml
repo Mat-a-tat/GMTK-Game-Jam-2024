@@ -3,7 +3,7 @@
 
 //Change blade height
 blade_height = oCreateBlades.blade_height;
-spd = 2;
+spd = 1;
 
 /*
 rnd_number = irandom_range(0,4);
