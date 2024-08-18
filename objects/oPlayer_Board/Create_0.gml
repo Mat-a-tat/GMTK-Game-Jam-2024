@@ -20,9 +20,10 @@ grav_intensity = .3
 blade_height = 178;
 max_y_height = blade_height - 60;
 min_y_height = 535;
+race_track_parts = [oRacetrackBlock, oRacetrackCorner]
 
 // Score
-player_score = 0;
+score = 0;
 
 // Board Tilt Variables
 angle = 0;

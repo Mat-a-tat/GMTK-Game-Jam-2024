@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oAvatar",
+  "%Name":"oRacetrackCorner",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oAvatar",
+  "name":"oRacetrackCorner",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objects/Player.yy",
+    "name":"Enviorment",
+    "path":"folders/Objects/Enviorment.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer",
-    "path":"sprites/sPlayer/sPlayer.yy",
+    "name":"sPath",
+    "path":"sprites/sPath/sPath.yy",
   },
   "spriteMaskId":null,
   "visible":true,

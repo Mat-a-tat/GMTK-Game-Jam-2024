@@ -111,8 +111,8 @@ image_angle = angle;
 // Increase Score if Touching Racetrack
 // TODO: Max score will be the number of frames that the gameplay lasts
 // compare player score with max score, and turn into a percentage
-if (place_meeting(x,y,oRacetrack))
+if (place_meeting(x,y,race_track_parts))
 {
-	player_score += 1;
-	show_debug_message(player_score);
+	score += 1;
+	show_debug_message(score);
 }
