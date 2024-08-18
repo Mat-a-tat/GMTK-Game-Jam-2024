@@ -4,8 +4,10 @@ map_x1 = oMinimap.minimap_width_x1; //bottom left
 map_x2 = oMinimap.minimap_width_x2; //top right
 
 //Spawn Point for Progress Bar
+/*
 bottom_left_x = map_x1-40;
 bottom_left_y = map_y1;
+*/
 
 // Below variables currently broken
 // bar_length = ((map_x2-map_x1) - 10) - (map_x1-40);
