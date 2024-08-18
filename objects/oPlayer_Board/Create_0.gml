@@ -11,10 +11,10 @@ v_direction = 0;
 // Start Surfing?
 is_surfing = true;
 
-surf_spd = 3;
+surf_spd = 4;
 
 //Acceleration
-max_spd = 3.5;
+max_spd = 4;
 accel = 1;
 decel = 0.2;
 grav_intensity = .3

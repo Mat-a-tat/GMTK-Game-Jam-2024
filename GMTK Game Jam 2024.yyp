@@ -77,6 +77,7 @@
     {"id":{"name":"rLevel2_1","path":"rooms/rLevel2_1/rLevel2_1.yy",},},
     {"id":{"name":"rReset","path":"rooms/rReset/rReset.yy",},},
     {"id":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
+    {"id":{"name":"mBackground","path":"sounds/mBackground/mBackground.yy",},},
     {"id":{"name":"character_sprite","path":"sprites/character_sprite/character_sprite.yy",},},
     {"id":{"name":"Pallete","path":"sprites/Pallete/Pallete.yy",},},
     {"id":{"name":"sAvatar","path":"sprites/sAvatar/sAvatar.yy",},},
