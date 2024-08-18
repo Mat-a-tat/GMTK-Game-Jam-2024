@@ -9,8 +9,8 @@
   "name":"oRoomChanger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enviorment",
-    "path":"folders/Objects/Enviorment.yy",
+    "name":"Game",
+    "path":"folders/Objects/Game.yy",
   },
   "parentObjectId":null,
   "persistent":false,

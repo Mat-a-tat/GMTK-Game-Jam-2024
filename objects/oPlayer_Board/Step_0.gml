@@ -1,6 +1,7 @@
 global.player_y = y;
 global.player_grav = grav;
 global.player_spd = spd;
+global.score = score;
 
 #region Basic Movement
 
