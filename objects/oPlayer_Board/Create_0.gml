@@ -36,4 +36,3 @@ bubble_popped = false;
 // Has Collided with first Blade?
 is_blade_collide = false;
 
-

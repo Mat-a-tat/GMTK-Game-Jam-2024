@@ -1,70 +1,48 @@
 global.magic = magic;
 
-//Decrease Magic
-if (keyboard_check(vk_space))
+//SpaceBar Down
+if magic >= 100
 {
-	if (magic > 0) && (is_recharging == false)
+	if (keyboard_check_pressed(vk_space))
 	{
-		decrease_magic = true;
+		if is_recharging == false
+		{
+			is_draining = true;
+		}
+		else if is_recharging == true
+		{
+			is_draining = false;
+		}
 	}
-	else if (is_recharging = true)
-	{
-		decrease_magic = false;
-	}
+}
+else if magic <= 0
+{
+	is_draining = false;
 }
 
-//Increase Magic
-if (!keyboard_check(vk_space))
+//SpaceBar Not Down
+if magic >= 100
 {
-	decrease_magic = false;
-	if magic < 100
+	if (!keyboard_check_pressed(vk_space))
 	{
-		increase_magic = true;
+		is_draining = false;
+		is_recharging = false;
 	}
 }
-if (magic == 0)
+else if magic <= 0
 {
-	increase_magic = true;
-}
-
-// Recharge Magic
-if magic == 0
-{
+	is_draining = false;
 	is_recharging = true;
-}
-if magic == 100
-{
-	is_recharging = false;
 }
 
 // Modify the Bar
-if decrease_magic == true
+if is_draining == true
 {
-	if (magic > 0)
-	{
-		magic -= .1;
-	}
-	else
-	{
-		magic = 0;
-		decrease_magic = false;
-	}
+	magic -= .7;
 }
-if increase_magic == true
+if is_recharging == true
 {
-	if (magic < 100)
-	{
-		magic += 1;
-	}
-	else
-	{
-		magic = 100;
-		increase_magic = false;
-	}
-	if (keyboard_check_pressed(vk_space)) && (is_recharging == false)
-	{
-		increase_magic = false;
-	}
+	magic += 1;
 }
 
-// show_debug_message("{0},increase:{1},decrease:{2}",magic,increase_magic,decrease_magic);
+show_debug_message("{0},is_recharging:{1},is_draining:{2}",magic,is_recharging,is_draining);
