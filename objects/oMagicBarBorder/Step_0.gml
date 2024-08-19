@@ -32,7 +32,7 @@ if decrease_magic == true
 {
 	if (magic > 0)
 	{
-		magic -= 1;
+		magic -= .1;
 	}
 	else
 	{

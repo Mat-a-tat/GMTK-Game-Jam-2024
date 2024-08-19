@@ -11,6 +11,15 @@ if (place_meeting(x, y+1, oPlayer_Board) && y + spd >= blade_height)
 	}
 }
 // if the blade is further away, move but less
+
+// Change color of blade
+if (x < oPlayer_Board.x - 29) && (oPlayer_Board.is_blade_collide == true)
+{
+		sprite_index = sBlade_cool;
+}
+
+/*
+// if the blade is further away, move but less. Experimental, causes lots of random slivers of blades.
 else if (place_meeting(x-1, y, oPlayer_Board))
 {
 	var _diff = oPlayer_Board.y - y;
@@ -19,16 +28,7 @@ else if (place_meeting(x-1, y, oPlayer_Board))
 		y += _diff / 2;
 	}
 }
-// Change color of blade
-if (x < oPlayer_Board.x + 29) && (oPlayer_Board.is_blade_collide == true)
-{
-		sprite_index = sBlade_cool;
-}
-
-
-
-
-
+*/
 /*
 else if (place_meeting(x-2, y, oPlayer_Board) && y + spd >= blade_height)
 {

@@ -62,21 +62,34 @@ else if (v_direction == 0)
 }
 #endregion
 
-#region Vertical Limits | Gravity
+#region Gravity / Above Lava
 // Being above the blade generates gravity, which dissaptes on contact with blade
+// Gravity builds faster than it decays, which balances against the pushback.
 if (y < blade_height)
 {
-	grav += grav_intensity;
+	grav += grav_high_intensity;
 }
 else if (grav != 0)
 {
-	grav -= grav_intensity;
+	grav -= grav_low_intensity;
 }
+
+#region Pushback / In Lava
+// Being lower in the lava generates an upward force, shooting you higher the lower you start
+if (y > blade_height)
+{
+	lava_pushback = -y / 1000;
+}
+else if (lava_pushback != 0)
+{
+	lava_pushback = 0;
+}
+
 #endregion
 
 #region Speed
 
-vsp = (v_direction * spd) + grav;
+vsp = (v_direction * spd) + grav + lava_pushback;
 // Check that our current movespeed dosent zip us out of bounds
 if y + vsp <= min_y_height
 {
@@ -121,7 +134,12 @@ image_angle = global.angle;
 if (place_meeting(x,y-10,oObstacleBubble))
 {
 	show_debug_message("Pop!");
-	grav = -3;
+	grav = -4;
+}
+// Variable for blade color changed in oBlade code
+if (place_meeting(x,y,oBlade))
+{
+	is_blade_collide = true;
 }
 #endregion 
 
@@ -137,9 +155,3 @@ if (keyboard_check_pressed(ord("B")))
 }
 
 #endregion 
-
-// Variable for blade color changed in oBlade code
-if (place_meeting(x,y,oBlade))
-{
-	is_blade_collide = true;
-}

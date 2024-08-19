@@ -16,10 +16,12 @@ is_surfing = true;
 surf_spd = 4;
 
 //Acceleration
-max_spd = 4;
-accel = 1;
+max_spd = 5;
+accel = .5;
 decel = 0.2;
-grav_intensity = .3
+grav_high_intensity = .35
+grav_low_intensity = .2
+lava_pushback = .1
 
 // Min-Max Vertical Movement Height
 // IF YOU CHANGE BLADE HEIGHT, CHANGE THESE VARIABLES
