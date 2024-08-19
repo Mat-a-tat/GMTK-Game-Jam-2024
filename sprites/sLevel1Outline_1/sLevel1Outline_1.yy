@@ -3,8 +3,8 @@
   "%Name":"sLevel1Outline_1",
   "bboxMode":0,
   "bbox_bottom":467,
-  "bbox_left":253,
-  "bbox_right":4999,
+  "bbox_left":503,
+  "bbox_right":5499,
   "bbox_top":217,
   "collisionKind":0,
   "collisionTolerance":0,
@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Path",
-    "path":"folders/Sprites/UI/Path.yy",
+    "path":"folders/Sprites/Enviorment/Path.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":5000,
+  "width":5500,
 }

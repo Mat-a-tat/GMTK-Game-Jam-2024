@@ -78,7 +78,7 @@ else if (grav != 0)
 // Being lower in the lava generates an upward force, shooting you higher the lower you start
 if (y > blade_height)
 {
-	lava_pushback = -y / 1000;
+	lava_pushback = -y / 10000;
 }
 else if (lava_pushback != 0)
 {
