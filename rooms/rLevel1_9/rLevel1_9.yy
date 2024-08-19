@@ -23,6 +23,7 @@
     {"name":"inst_5476AC23","path":"rooms/rLevel1_9/rLevel1_9.yy",},
     {"name":"inst_6EA25B65","path":"rooms/rLevel1_9/rLevel1_9.yy",},
     {"name":"inst_188F1BA7","path":"rooms/rLevel1_9/rLevel1_9.yy",},
+    {"name":"inst_5F64EB47","path":"rooms/rLevel1_9/rLevel1_9.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -39,6 +40,7 @@
     {"$GMRInstanceLayer":"","%Name":"Player","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_6785D828_1_1_1_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6785D828_1_1_1_1_1_1_1_1","objectId":{"name":"oPlayer_Board","path":"objects/oPlayer_Board/oPlayer_Board.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":270.0,},
         {"$GMRInstance":"v1","%Name":"inst_18C80453_1_1_1_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18C80453_1_1_1_1_1_1_1_1","objectId":{"name":"oAvatar","path":"objects/oAvatar/oAvatar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":257.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5F64EB47","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5F64EB47","objectId":{"name":"oMagicShield","path":"objects/oMagicShield/oMagicShield.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":224.0,},
       ],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Obstacles","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_5E48A86A_1_1_1_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5E48A86A_1_1_1_1_1_1_1_1","objectId":{"name":"oObstacleBubble","path":"objects/oObstacleBubble/oObstacleBubble.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":192.0,},
