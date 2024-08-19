@@ -121,6 +121,7 @@
     {"name":"inst_5345ACCC_1_1_1_1_1_1_2_1_1_1_1_1","path":"rooms/rLevel1_16/rLevel1_16.yy",},
     {"name":"inst_6B78551E_1_1_1_1_1_1_2_1_1_1_1_1","path":"rooms/rLevel1_16/rLevel1_16.yy",},
     {"name":"inst_398C7E4_1_1_1_1_1_1_2_1_1_1_1_1","path":"rooms/rLevel1_16/rLevel1_16.yy",},
+    {"name":"inst_4B19E6D3","path":"rooms/rLevel1_16/rLevel1_16.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -248,6 +249,7 @@
       ],"layers":[],"name":"Racetrack","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Blades","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_6B78551E_1_1_1_1_1_1_2_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B78551E_1_1_1_1_1_1_2_1_1_1_1_1","objectId":{"name":"oCreateBlades","path":"objects/oCreateBlades/oCreateBlades.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":96.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4B19E6D3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B19E6D3","objectId":{"name":"oBladeMask","path":"objects/oBladeMask/oBladeMask.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":224.0,},
       ],"layers":[],"name":"Blades","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"sBG_Lava","path":"sprites/sBG_Lava/sBG_Lava.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
