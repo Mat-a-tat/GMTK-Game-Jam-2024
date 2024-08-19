@@ -9,8 +9,8 @@
   "name":"oPathFullLevel1_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Path Full",
-    "path":"folders/Objects/Enviorment/Path/Path Full.yy",
+    "name":"Level 1-9",
+    "path":"folders/Objects/Enviorment/Path/Path Full/Level 1-9.yy",
   },
   "parentObjectId":null,
   "persistent":false,

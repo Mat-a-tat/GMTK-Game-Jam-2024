@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oCameraBoundry",
+  "%Name":"oPathFullLevel1_10",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oCameraBoundry",
+  "name":"oPathFullLevel1_10",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game",
-    "path":"folders/Objects/Game.yy",
+    "name":"Level 10-19",
+    "path":"folders/Objects/Enviorment/Path/Path Full/Level 10-19.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sAvatar",
-    "path":"sprites/sAvatar/sAvatar.yy",
+    "name":"sLevel1Outline_10",
+    "path":"sprites/sLevel1Outline_10/sLevel1Outline_10.yy",
   },
   "spriteMaskId":null,
   "visible":true,

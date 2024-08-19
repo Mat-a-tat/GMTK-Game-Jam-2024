@@ -9,8 +9,8 @@
   "name":"oPathFullLevel1_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Path Full",
-    "path":"folders/Objects/Enviorment/Path/Path Full.yy",
+    "name":"Level 1-9",
+    "path":"folders/Objects/Enviorment/Path/Path Full/Level 1-9.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sLevel1Outline_8",
-    "path":"sprites/sLevel1Outline_8/sLevel1Outline_8.yy",
+    "name":"sLevel1Outline_3",
+    "path":"sprites/sLevel1Outline_3/sLevel1Outline_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

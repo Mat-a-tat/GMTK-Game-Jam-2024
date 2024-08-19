@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_49236887_1_1","path":"rooms/rLevel1_3/rLevel1_3.yy",},
     {"name":"inst_413EB6A3_1_1","path":"rooms/rLevel1_3/rLevel1_3.yy",},
     {"name":"inst_4937F853_1_1","path":"rooms/rLevel1_3/rLevel1_3.yy",},
     {"name":"inst_4B4106A8_1_1","path":"rooms/rLevel1_3/rLevel1_3.yy",},
@@ -18,10 +17,10 @@
     {"name":"inst_4DA2CE94_1_1","path":"rooms/rLevel1_3/rLevel1_3.yy",},
     {"name":"inst_75324668_1_1","path":"rooms/rLevel1_3/rLevel1_3.yy",},
     {"name":"inst_1A7E527D_1_1","path":"rooms/rLevel1_3/rLevel1_3.yy",},
-    {"name":"inst_2ACC51F0","path":"rooms/rLevel1_3/rLevel1_3.yy",},
     {"name":"inst_5345ACCC","path":"rooms/rLevel1_3/rLevel1_3.yy",},
     {"name":"inst_6B78551E","path":"rooms/rLevel1_3/rLevel1_3.yy",},
     {"name":"inst_398C7E4","path":"rooms/rLevel1_3/rLevel1_3.yy",},
+    {"name":"inst_FE0489F","path":"rooms/rLevel1_3/rLevel1_3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -31,9 +30,8 @@
         {"$GMRInstance":"v1","%Name":"inst_4B4106A8_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B4106A8_1_1","objectId":{"name":"oInstanceCuller","path":"objects/oInstanceCuller/oInstanceCuller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.8125,"scaleY":2.875,"x":423.0,"y":36.0,},
         {"$GMRInstance":"v1","%Name":"inst_5B76F2DA_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B76F2DA_1_1","objectId":{"name":"oMagicBarBorder","path":"objects/oMagicBarBorder/oMagicBarBorder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":721.0,"y":66.0,},
         {"$GMRInstance":"v1","%Name":"inst_123E24CA_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_123E24CA_1_1","objectId":{"name":"oScore","path":"objects/oScore/oScore.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":537.0,"y":53.0,},
-        {"$GMRInstance":"v1","%Name":"inst_2ACC51F0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2ACC51F0","objectId":{"name":"oCameraBoundry","path":"objects/oCameraBoundry/oCameraBoundry.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-8.0,"scaleY":6.0,"x":2464.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_5345ACCC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5345ACCC","objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":64.0,},
-        {"$GMRInstance":"v1","%Name":"inst_398C7E4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_398C7E4","objectId":{"name":"oRoomChanger","path":"objects/oRoomChanger/oRoomChanger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":29.0,"scaleY":10.0,"x":4960.0,"y":-32.0,},
+        {"$GMRInstance":"v1","%Name":"inst_398C7E4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_398C7E4","objectId":{"name":"oRoomChanger","path":"objects/oRoomChanger/oRoomChanger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":29.0,"scaleY":10.0,"x":4800.0,"y":-32.0,},
       ],"layers":[],"name":"UI","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Player","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_6785D828_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6785D828_1_1","objectId":{"name":"oPlayer_Board","path":"objects/oPlayer_Board/oPlayer_Board.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":270.0,},
@@ -46,7 +44,7 @@
         {"$GMRInstance":"v1","%Name":"inst_1A7E527D_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A7E527D_1_1","objectId":{"name":"oObstacleBubble","path":"objects/oObstacleBubble/oObstacleBubble.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2396.0,"y":174.0,},
       ],"layers":[],"name":"Obstacles","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Racetrack","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_49236887_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_49236887_1_1","objectId":{"name":"oPathFullLevel1_1","path":"objects/oPathFullLevel1_1/oPathFullLevel1_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":7.0,"y":-26.0,},
+        {"$GMRInstance":"v1","%Name":"inst_FE0489F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_FE0489F","objectId":{"name":"oPathFullLevel1_3","path":"objects/oPathFullLevel1_3/oPathFullLevel1_3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Racetrack","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Blades","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_6B78551E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B78551E","objectId":{"name":"oCreateBlades","path":"objects/oCreateBlades/oCreateBlades.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":96.0,},
@@ -55,8 +53,8 @@
   ],
   "name":"rLevel1_3",
   "parent":{
-    "name":"Level 1",
-    "path":"folders/Rooms/Rooms Levels/Level 1.yy",
+    "name":"1-9",
+    "path":"folders/Rooms/Rooms Levels/Level 1/1-9.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
