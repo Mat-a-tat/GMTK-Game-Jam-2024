@@ -11,30 +11,6 @@ if is_surfing
 	x += surf_spd;
 }
 
-// DEBUG Stop surfing
-if keyboard_check_pressed(vk_shift)
-{
-	switch (is_surfing)
-	{
-		case true:
-			is_surfing = false;
-		break;
-		
-		case false:
-			is_surfing = true;
-		break;
-	}
-}
-// DEBUG Skip Room/Return Room
-if keyboard_check_pressed(vk_enter)
-{
-	room_goto_next();
-}
-if keyboard_check_pressed(vk_backspace)
-{
-	room_goto_previous();
-}
-
 // Vertical Movement
 
 moveUp = keyboard_check(vk_up);
@@ -53,7 +29,7 @@ if (v_direction != 0)
 {
 	if (spd < max_spd)
 	{
-		spd = spd + (accel * decel);
+		spd += accel;
 	}
 }
 else if (v_direction == 0)
@@ -67,12 +43,13 @@ else if (v_direction == 0)
 // Gravity builds faster than it decays, which balances against the pushback.
 if (y < blade_height)
 {
-	grav += grav_high_intensity;
+	grav += grav_accel;
 }
 else if (grav > 0)
 {
-	grav -= grav_low_intensity;
+	grav -= grav_decay;
 }
+#endregion
 
 #region Pushback / In Lava
 // Being lower in the lava generates an upward force, shooting you higher the lower you start
@@ -87,9 +64,30 @@ else if (lava_pushback != 0)
 
 #endregion
 
+#region Collision
+
+var inst_bubble = instance_place(x, y+3, oObstacleBubble);
+if (inst_bubble != noone) 
+{
+	show_debug_message("Pop!");
+	audio_play_sound(sndBubble_Pop,1,false);
+	instance_destroy(inst_bubble)
+	spd = 2 * max_spd
+}
+
+// Variable for blade color changed in oBlade code
+if (place_meeting(x,y,oBlade))
+{
+	is_blade_collide = true;
+}
+
+#endregion 
+
 #region Speed
 
 vsp = (v_direction * spd) + grav + lava_pushback;
+
+
 // Check that our current movespeed dosent zip us out of bounds
 if y + vsp <= min_y_height
 {
@@ -118,6 +116,7 @@ else // Normalize to 0 when there's no input
 {
 	if global.angle > 0
 	{
+		
 		global.angle -= 1;
 	}
 	else if global.angle < 0
@@ -129,20 +128,6 @@ image_angle = global.angle;
 
 #endregion
 
-#region Collision
-
-if (place_meeting(x,y-10,oObstacleBubble))
-{
-	show_debug_message("Pop!");
-	grav = -4;
-}
-// Variable for blade color changed in oBlade code
-if (place_meeting(x,y,oBlade))
-{
-	is_blade_collide = true;
-}
-#endregion 
-
 #region Debugg Tools
 
 if (keyboard_check_pressed(ord("N")))
@@ -153,5 +138,30 @@ if (keyboard_check_pressed(ord("B")))
 {
 	room_goto_previous();
 }
+// DEBUG Stop surfing
+if keyboard_check_pressed(vk_shift)
+{
+	switch (is_surfing)
+	{
+		case true:
+			is_surfing = false;
+		break;
+		
+		case false:
+			is_surfing = true;
+		break;
+	}
+}
+// DEBUG Skip Room/Return Room
+if keyboard_check_pressed(vk_enter)
+{
+	room_goto_next();
+}
+if keyboard_check_pressed(vk_backspace)
+{
+	room_goto_previous();
+}
+
 
 #endregion 
+

@@ -17,17 +17,18 @@ surf_spd = 4;
 
 //Acceleration
 max_spd = 5;
-accel = .5;
-decel = 0.2;
-grav_high_intensity = .35
-grav_low_intensity = .2
+accel = .2;
+grav_accel = .35
+grav_decay = .2
 lava_pushback = .1
 
-// Min-Max Vertical Movement Height
-// IF YOU CHANGE BLADE HEIGHT, CHANGE THESE VARIABLES
+//Enviorment 
+
 blade_height = 270;
-//max_y_height = blade_height - 60;
 min_y_height = 500;
+bubble_popped = false;
 
 // Has Collided with first Blade?
 is_blade_collide = false;
+
+

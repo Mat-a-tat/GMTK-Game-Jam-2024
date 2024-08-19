@@ -7,7 +7,10 @@ if (place_meeting(x, y+1, oPlayer_Board) && y + spd >= blade_height)
 	if (place_meeting(x, y+1, oPlayer_Board))
 	{
 		var _diff = oPlayer_Board.y - y;
-		y += _diff;
+		if y + _diff >= blade_height
+		{
+			y += _diff;
+		}
 	}
 }
 // if the blade is further away, move but less
