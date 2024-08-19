@@ -17,4 +17,5 @@ bottom_left_y = map_y1;
 
 increase_magic = false;
 decrease_magic = false;
+is_recharging = false;
 magic = global.magic;
