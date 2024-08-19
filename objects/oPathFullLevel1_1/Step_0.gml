@@ -3,7 +3,7 @@ if (oMagicBarBorder.is_draining == true)
 {
    if image_alpha < 0.5 { image_alpha = image_alpha + fade_speed; }
 }
-if (oMagicBarBorder.is_recharging == true) || !(keyboard_check_pressed(vk_space))
+if (oMagicBarBorder.is_recharging == true)
 {
     if image_alpha > 0 { image_alpha = image_alpha - fade_speed; }
 }
