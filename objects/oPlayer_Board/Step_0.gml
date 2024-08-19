@@ -23,24 +23,48 @@ if (keyboard_check_released (vk_down)) || (keyboard_check_released (vk_up))
 {
 	spd = 0;
 }
+#endregion
 
-// Acceleration
-if (v_direction != 0)
+#region Acceleration
+if v_direction > 0 && last_v_direction > 0
 {
 	if (spd < max_spd)
 	{
 		spd += accel;
 	}
+	if (accel < accel_cap)
+	{
+		accel += accel_increase
+	}
 }
+else if v_direction < 0 && last_v_direction < 0
+{
+	if (spd < max_spd)
+	{
+		spd += accel;
+	}
+	if (accel < accel_cap)
+	{
+		accel += accel_increase
+	}
 else if (v_direction == 0)
 {
 	spd = 0;
 }
+}
+else
+{
+	accel = accel_floor
+}
+
+last_v_direction = v_direction;
+
 #endregion
 
 #region Gravity / Above Lava
 // Being above the blade generates gravity, which dissaptes on contact with blade
 // Gravity builds faster than it decays, which balances against the pushback.
+
 if (y < blade_height)
 {
 	grav += grav_accel;
@@ -49,6 +73,7 @@ else if (grav > 0)
 {
 	grav -= grav_decay;
 }
+
 #endregion
 
 #region Pushback / In Lava
