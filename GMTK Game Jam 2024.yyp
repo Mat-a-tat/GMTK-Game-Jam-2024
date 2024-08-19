@@ -109,6 +109,7 @@
     {"id":{"name":"oRacetrackHardCorner","path":"objects/oRacetrackHardCorner/oRacetrackHardCorner.yy",},},
     {"id":{"name":"oRoomChanger","path":"objects/oRoomChanger/oRoomChanger.yy",},},
     {"id":{"name":"oScore","path":"objects/oScore/oScore.yy",},},
+    {"id":{"name":"oScoreCalculator","path":"objects/oScoreCalculator/oScoreCalculator.yy",},},
     {"id":{"name":"oTitleScreenText","path":"objects/oTitleScreenText/oTitleScreenText.yy",},},
     {"id":{"name":"rLevel1_1","path":"rooms/rLevel1_1/rLevel1_1.yy",},},
     {"id":{"name":"rLevel1_10","path":"rooms/rLevel1_10/rLevel1_10.yy",},},
@@ -186,7 +187,6 @@
     {"roomId":{"name":"rLevel1_1","path":"rooms/rLevel1_1/rLevel1_1.yy",},},
     {"roomId":{"name":"rLevel1_2","path":"rooms/rLevel1_2/rLevel1_2.yy",},},
     {"roomId":{"name":"rLevel1_3","path":"rooms/rLevel1_3/rLevel1_3.yy",},},
-    {"roomId":{"name":"rReset","path":"rooms/rReset/rReset.yy",},},
     {"roomId":{"name":"rLevel1_4","path":"rooms/rLevel1_4/rLevel1_4.yy",},},
     {"roomId":{"name":"rLevel1_5","path":"rooms/rLevel1_5/rLevel1_5.yy",},},
     {"roomId":{"name":"rLevel1_6","path":"rooms/rLevel1_6/rLevel1_6.yy",},},
@@ -200,6 +200,7 @@
     {"roomId":{"name":"rLevel1_14","path":"rooms/rLevel1_14/rLevel1_14.yy",},},
     {"roomId":{"name":"rLevel1_15","path":"rooms/rLevel1_15/rLevel1_15.yy",},},
     {"roomId":{"name":"rLevel1_16","path":"rooms/rLevel1_16/rLevel1_16.yy",},},
+    {"roomId":{"name":"rReset","path":"rooms/rReset/rReset.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
