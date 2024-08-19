@@ -1,5 +1,3 @@
-depth = oMinimap.depth + 100;
-
 map_top_right_x = oMinimap.minimap_width_x1;
 map_top_right_y = oMinimap.minimap_height_y2;
 
