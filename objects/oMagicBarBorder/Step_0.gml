@@ -38,7 +38,7 @@ else if magic <= 0
 // Modify the Bar
 if is_draining == true
 {
-	magic -= .7;
+	magic -= .1;
 }
 if is_recharging == true
 {
