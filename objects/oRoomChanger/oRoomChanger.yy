@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBlade",
-    "path":"sprites/sBlade/sBlade.yy",
+    "name":"sBlade_cool",
+    "path":"sprites/sBlade_cool/sBlade_cool.yy",
   },
   "spriteMaskId":null,
   "visible":true,

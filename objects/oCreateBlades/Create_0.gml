@@ -5,6 +5,6 @@ for (i = 0; i < room_width;  i++)
 	var inst = instance_create_layer(i,blade_height,"Blades",oBlade);
 	with (inst)
 	{
-		image_yscale = 5.6;
+		image_yscale = 4.4;
 	}
 }

@@ -1,5 +1,4 @@
-// Be drawn on top of the minimap
-depth = oMinimap.depth - 50;
+depth = 0;
 
 // These variable calculate dimensions
 minimap_px_height = oMinimap.minimap_height_y1 - oMinimap.minimap_height_y2;

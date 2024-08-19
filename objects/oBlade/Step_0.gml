@@ -1,30 +1,34 @@
 
 //move the blade if the player is on top of it
-
-
-
 if (place_meeting(x, y+1, oPlayer_Board) && y + spd >= blade_height)
 {
 	y += spd;
 	
 	if (place_meeting(x, y+1, oPlayer_Board))
 	{
-		var _diff = oPlayer_Board.y - y
-		y += _diff
+		var _diff = oPlayer_Board.y - y;
+		y += _diff;
 	}
-	//if (place_meeting(x, y+1, oPlayer))
 }
-
 // if the blade is further away, move but less
-
 else if (place_meeting(x-1, y, oPlayer_Board))
 {
-	var _diff = oPlayer_Board.y - y
+	var _diff = oPlayer_Board.y - y;
 	if (_diff > 0)
 	{
 		y += _diff / 2;
 	}
 }
+// Change color of blade
+if (x < oPlayer_Board.x + 29) && (oPlayer_Board.is_blade_collide == true)
+{
+		sprite_index = sBlade_cool;
+}
+
+
+
+
+
 /*
 else if (place_meeting(x-2, y, oPlayer_Board) && y + spd >= blade_height)
 {

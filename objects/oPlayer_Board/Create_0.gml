@@ -7,6 +7,8 @@ spd = global.player_spd
 // Vertical Speed
 vsp = 0;
 v_direction = 0;
+moveUp = false;
+moveDown = false;
 
 // Start Surfing?
 is_surfing = true;
@@ -24,3 +26,6 @@ grav_intensity = .3
 blade_height = 270;
 //max_y_height = blade_height - 60;
 min_y_height = 500;
+
+// Has Collided with first Blade?
+is_blade_collide = false;

@@ -137,3 +137,9 @@ if (keyboard_check_pressed(ord("B")))
 }
 
 #endregion 
+
+// Variable for blade color changed in oBlade code
+if (place_meeting(x,y,oBlade))
+{
+	is_blade_collide = true;
+}
