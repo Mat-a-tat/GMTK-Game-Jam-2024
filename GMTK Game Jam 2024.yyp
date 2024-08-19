@@ -61,7 +61,6 @@
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oCreateBlades","path":"objects/oCreateBlades/oCreateBlades.yy",},},
     {"id":{"name":"oInit","path":"objects/oInit/oInit.yy",},},
-    {"id":{"name":"oInitReset","path":"objects/oInitReset/oInitReset.yy",},},
     {"id":{"name":"oInstanceCuller","path":"objects/oInstanceCuller/oInstanceCuller.yy",},},
     {"id":{"name":"oMagicBarBorder","path":"objects/oMagicBarBorder/oMagicBarBorder.yy",},},
     {"id":{"name":"oMagicShield","path":"objects/oMagicShield/oMagicShield.yy",},},
