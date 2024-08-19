@@ -134,6 +134,7 @@
     {"id":{"name":"sBG_Lava","path":"sprites/sBG_Lava/sBG_Lava.yy",},},
     {"id":{"name":"sBlade_cool","path":"sprites/sBlade_cool/sBlade_cool.yy",},},
     {"id":{"name":"sBlade","path":"sprites/sBlade/sBlade.yy",},},
+    {"id":{"name":"sBladeMask_old","path":"sprites/sBladeMask_old/sBladeMask_old.yy",},},
     {"id":{"name":"sBladeMask","path":"sprites/sBladeMask/sBladeMask.yy",},},
     {"id":{"name":"sBladeOutline","path":"sprites/sBladeOutline/sBladeOutline.yy",},},
     {"id":{"name":"sBubble","path":"sprites/sBubble/sBubble.yy",},},

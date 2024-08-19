@@ -15,7 +15,6 @@ bottom_left_y = map_y1;
 
 // instance_create_layer(bottom_left_x,bottom_left_y,"UI",oMagicProgressBar);
 
-increase_magic = false;
-decrease_magic = false;
+is_draining = false;
 is_recharging = false;
 magic = global.magic;
