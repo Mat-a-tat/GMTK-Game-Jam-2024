@@ -21,7 +21,6 @@
     {"name":"inst_2EEE287C","path":"rooms/rLevel1_1/rLevel1_1.yy",},
     {"name":"inst_7CB6E65","path":"rooms/rLevel1_1/rLevel1_1.yy",},
     {"name":"inst_160BBBF2","path":"rooms/rLevel1_1/rLevel1_1.yy",},
-    {"name":"inst_63FB12C0","path":"rooms/rLevel1_1/rLevel1_1.yy",},
     {"name":"inst_4C9439BD","path":"rooms/rLevel1_1/rLevel1_1.yy",},
     {"name":"inst_99EB667","path":"rooms/rLevel1_1/rLevel1_1.yy",},
     {"name":"inst_5BEDE349","path":"rooms/rLevel1_1/rLevel1_1.yy",},
@@ -37,6 +36,7 @@
     {"name":"inst_3FA0AEB7","path":"rooms/rLevel1_1/rLevel1_1.yy",},
     {"name":"inst_6B0FF126","path":"rooms/rLevel1_1/rLevel1_1.yy",},
     {"name":"inst_CFB58D","path":"rooms/rLevel1_1/rLevel1_1.yy",},
+    {"name":"inst_513D42A1","path":"rooms/rLevel1_1/rLevel1_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -79,7 +79,7 @@
       ],"layers":[],"name":"Racetrack","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Blades","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_362B1DC2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_362B1DC2","objectId":{"name":"oCreateBlades","path":"objects/oCreateBlades/oCreateBlades.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":64.0,},
-        {"$GMRInstance":"v1","%Name":"inst_63FB12C0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63FB12C0","objectId":{"name":"oBladeMask","path":"objects/oBladeMask/oBladeMask.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":576.0,},
+        {"$GMRInstance":"v1","%Name":"inst_513D42A1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_513D42A1","objectId":{"name":"oBladeMask","path":"objects/oBladeMask/oBladeMask.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":608.0,},
       ],"layers":[],"name":"Blades","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"MoltenBlade","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_500A6324","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_500A6324","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sBladeMask_Inverted","path":"sprites/sBladeMask_Inverted/sBladeMask_Inverted.yy",},"x":0.0,"y":270.0,},

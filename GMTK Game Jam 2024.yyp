@@ -142,6 +142,7 @@
     {"id":{"name":"sBG_Lava","path":"sprites/sBG_Lava/sBG_Lava.yy",},},
     {"id":{"name":"sBlade_cool","path":"sprites/sBlade_cool/sBlade_cool.yy",},},
     {"id":{"name":"sBlade","path":"sprites/sBlade/sBlade.yy",},},
+    {"id":{"name":"sBladeMask_EndScreen","path":"sprites/sBladeMask_EndScreen/sBladeMask_EndScreen.yy",},},
     {"id":{"name":"sBladeMask_Inverted","path":"sprites/sBladeMask_Inverted/sBladeMask_Inverted.yy",},},
     {"id":{"name":"sBladeMask_old","path":"sprites/sBladeMask_old/sBladeMask_old.yy",},},
     {"id":{"name":"sBladeMask","path":"sprites/sBladeMask/sBladeMask.yy",},},
