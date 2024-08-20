@@ -1,6 +1,5 @@
 
-max_score = 9000; //Made up number, determine later.
-
+max_score = 12000; 
 score_raw = global.score;
 
 score_raw_fraction = score_raw / max_score;

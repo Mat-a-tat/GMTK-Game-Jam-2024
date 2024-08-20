@@ -58,6 +58,7 @@
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
+    {"id":{"name":"Font3","path":"fonts/Font3/Font3.yy",},},
     {"id":{"name":"oAvatar","path":"objects/oAvatar/oAvatar.yy",},},
     {"id":{"name":"oBlade","path":"objects/oBlade/oBlade.yy",},},
     {"id":{"name":"oBladeMask","path":"objects/oBladeMask/oBladeMask.yy",},},
@@ -151,6 +152,7 @@
     {"id":{"name":"sBladeOutline","path":"sprites/sBladeOutline/sBladeOutline.yy",},},
     {"id":{"name":"sBubble","path":"sprites/sBubble/sBubble.yy",},},
     {"id":{"name":"sCredits","path":"sprites/sCredits/sCredits.yy",},},
+    {"id":{"name":"sInGameScore","path":"sprites/sInGameScore/sInGameScore.yy",},},
     {"id":{"name":"sLevel1Outline_1_1","path":"sprites/sLevel1Outline_1_1/sLevel1Outline_1_1.yy",},},
     {"id":{"name":"sLevel1Outline_1","path":"sprites/sLevel1Outline_1/sLevel1Outline_1.yy",},},
     {"id":{"name":"sLevel1Outline_10","path":"sprites/sLevel1Outline_10/sLevel1Outline_10.yy",},},

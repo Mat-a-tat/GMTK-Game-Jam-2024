@@ -25,7 +25,7 @@ last_v_direction = 0;
 
 grav_accel = .35;
 grav_decay = .2;
-grav_max = 10;
+grav_max = 15;
 lava_pushback = .1;
 
 //Enviorment 
