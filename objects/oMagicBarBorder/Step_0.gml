@@ -51,4 +51,4 @@ if is_recharging == true
 	magic += 1;
 }
 
-show_debug_message("{0},is_recharging:{1},is_draining:{2}",magic,is_recharging,is_draining);
+// show_debug_message("{0},is_recharging:{1},is_draining:{2}",magic,is_recharging,is_draining);
