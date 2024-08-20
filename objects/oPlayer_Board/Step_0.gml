@@ -151,6 +151,7 @@ image_angle = global.angle;
 
 #region Debugg Tools
 
+/*
 if (keyboard_check_pressed(ord("N")))
 {
 	audio_stop_all();
@@ -177,7 +178,7 @@ if keyboard_check_pressed(vk_shift)
 		break;
 	}
 }
-
+*/
 #endregion 
 
 

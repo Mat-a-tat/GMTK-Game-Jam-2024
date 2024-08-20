@@ -68,6 +68,7 @@
     {"id":{"name":"oEndScreen","path":"objects/oEndScreen/oEndScreen.yy",},},
     {"id":{"name":"oInit","path":"objects/oInit/oInit.yy",},},
     {"id":{"name":"oInstanceCuller","path":"objects/oInstanceCuller/oInstanceCuller.yy",},},
+    {"id":{"name":"oIntroSequenceTransition","path":"objects/oIntroSequenceTransition/oIntroSequenceTransition.yy",},},
     {"id":{"name":"oMagicBarBorder","path":"objects/oMagicBarBorder/oMagicBarBorder.yy",},},
     {"id":{"name":"oMagicShield","path":"objects/oMagicShield/oMagicShield.yy",},},
     {"id":{"name":"oMinimap","path":"objects/oMinimap/oMinimap.yy",},},
@@ -125,6 +126,7 @@
     {"id":{"name":"rLevel1_7","path":"rooms/rLevel1_7/rLevel1_7.yy",},},
     {"id":{"name":"rLevel1_8","path":"rooms/rLevel1_8/rLevel1_8.yy",},},
     {"id":{"name":"rLevel1_9","path":"rooms/rLevel1_9/rLevel1_9.yy",},},
+    {"id":{"name":"rSequenceScreen","path":"rooms/rSequenceScreen/rSequenceScreen.yy",},},
     {"id":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
     {"id":{"name":"sqIntro","path":"sequences/sqIntro/sqIntro.yy",},},
     {"id":{"name":"mMain","path":"sounds/mMain/mMain.yy",},},
@@ -241,6 +243,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rSequenceScreen","path":"rooms/rSequenceScreen/rSequenceScreen.yy",},},
     {"roomId":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
     {"roomId":{"name":"rLevel1_1","path":"rooms/rLevel1_1/rLevel1_1.yy",},},
     {"roomId":{"name":"rLevel1_2","path":"rooms/rLevel1_2/rLevel1_2.yy",},},
