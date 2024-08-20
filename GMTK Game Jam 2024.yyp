@@ -178,7 +178,7 @@
     {"id":{"name":"sPlayer1","path":"sprites/sPlayer1/sPlayer1.yy",},},
     {"id":{"name":"sPlayer2","path":"sprites/sPlayer2/sPlayer2.yy",},},
     {"id":{"name":"sPlayer3","path":"sprites/sPlayer3/sPlayer3.yy",},},
-    {"id":{"name":"Sprite46","path":"sprites/Sprite46/Sprite46.yy",},},
+    {"id":{"name":"sScoreCalculator","path":"sprites/sScoreCalculator/sScoreCalculator.yy",},},
     {"id":{"name":"sShard","path":"sprites/sShard/sShard.yy",},},
     {"id":{"name":"sTutorial","path":"sprites/sTutorial/sTutorial.yy",},},
     {"id":{"name":"sUI","path":"sprites/sUI/sUI.yy",},},
