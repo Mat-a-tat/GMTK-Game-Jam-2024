@@ -38,10 +38,20 @@ else if (v_direction == 0)
 }
 #endregion
 
+#region Acceleration
+if v_direction != 0 
+	if (spd < max_spd)
+	{
+		spd += accel;
+	}
+
+#endregion
+
 #region Gravity / Above Lava
 // Being above the blade generates gravity, which dissaptes on contact with blade
 // Gravity builds faster than it decays, which balances against the pushback.
-if (y < blade_height)
+
+if (y < blade_height && grav < grav_max)
 {
 	grav += grav_accel;
 }
@@ -49,20 +59,6 @@ else if (grav > 0)
 {
 	grav -= grav_decay;
 }
-#endregion
-
-#region Pushback / In Lava
-// Being lower in the lava generates an upward force, shooting you higher the lower you start
-if (y > blade_height)
-{
-	lava_pushback = -y / 1000;
-}
-else if (lava_pushback != 0)
-{
-	lava_pushback = 0;
-}
-
-#endregion
 
 #region Collision
 
