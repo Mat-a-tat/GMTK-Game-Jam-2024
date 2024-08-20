@@ -99,6 +99,13 @@ if (inst_bubble != noone)
 	instance_destroy(inst_bubble)
 	spd = 2 * max_spd
 }
+var inst_shard = instance_place(x, y+3, oObstacleShard);
+if (inst_shard != noone) 
+{
+	show_debug_message("Plop!");
+	instance_destroy(inst_shard)
+	spd = grav_max
+}
 
 // Variable for blade color changed in oBlade code
 if (place_meeting(x,y,oBlade))
@@ -157,10 +164,14 @@ image_angle = global.angle;
 
 if (keyboard_check_pressed(ord("N")))
 {
+	audio_stop_all();
+	global.magic = 100;
 	room_goto_next();
 }
 if (keyboard_check_pressed(ord("B")))
 {
+	audio_stop_all();
+	global.magic = 100;
 	room_goto_previous();
 }
 // DEBUG Stop surfing
@@ -177,18 +188,10 @@ if keyboard_check_pressed(vk_shift)
 		break;
 	}
 }
-// DEBUG Skip Room/Return Room
-if keyboard_check_pressed(vk_enter)
-{
-	room_goto_next();
-}
-if keyboard_check_pressed(vk_backspace)
-{
-	room_goto_previous();
-}
-
 
 #endregion 
+
+
 
 
 

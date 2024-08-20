@@ -1,5 +1,4 @@
-var bar_x1 = oMinimap.gui_width - (map_x2-map_x1) - 20 - 16 - 15;  // -minimap length, -room offset, -buffer, -bar width
-var bar_x2 = oMinimap.gui_width - (map_x2-map_x1) - 20 - 16;
+
 
 
 

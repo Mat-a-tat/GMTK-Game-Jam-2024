@@ -1,5 +1,11 @@
 global.magic = magic;
 
+//Fix bug
+if magic > 100
+{
+	magic = 100;
+}
+
 //SpaceBar Down
 if magic >= 100
 {
@@ -38,7 +44,7 @@ else if magic <= 0
 // Modify the Bar
 if is_draining == true
 {
-	magic -= .1;
+	magic -= .35;
 }
 if is_recharging == true
 {
