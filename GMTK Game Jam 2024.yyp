@@ -133,6 +133,7 @@
     {"id":{"name":"mTitle","path":"sounds/mTitle/mTitle.yy",},},
     {"id":{"name":"mTitleLoop","path":"sounds/mTitleLoop/mTitleLoop.yy",},},
     {"id":{"name":"sndBubble_Pop","path":"sounds/sndBubble_Pop/sndBubble_Pop.yy",},},
+    {"id":{"name":"sndJumping_Splash","path":"sounds/sndJumping_Splash/sndJumping_Splash.yy",},},
     {"id":{"name":"sndLanding_Splash","path":"sounds/sndLanding_Splash/sndLanding_Splash.yy",},},
     {"id":{"name":"character_sprite","path":"sprites/character_sprite/character_sprite.yy",},},
     {"id":{"name":"Pallete","path":"sprites/Pallete/Pallete.yy",},},
