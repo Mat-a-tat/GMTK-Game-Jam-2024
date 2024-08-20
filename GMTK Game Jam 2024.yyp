@@ -144,6 +144,7 @@
     {"id":{"name":"sBlade","path":"sprites/sBlade/sBlade.yy",},},
     {"id":{"name":"sBladeMask_old","path":"sprites/sBladeMask_old/sBladeMask_old.yy",},},
     {"id":{"name":"sBladeMask","path":"sprites/sBladeMask/sBladeMask.yy",},},
+    {"id":{"name":"sBladeMask3","path":"sprites/sBladeMask3/sBladeMask3.yy",},},
     {"id":{"name":"sBladeOutline","path":"sprites/sBladeOutline/sBladeOutline.yy",},},
     {"id":{"name":"sBubble","path":"sprites/sBubble/sBubble.yy",},},
     {"id":{"name":"sCredits","path":"sprites/sCredits/sCredits.yy",},},
