@@ -1,4 +1,8 @@
-// TODO make loop not start at the beginning of every room
+music_title_in_room = instance_exists(oMusicPlayerTitleEnd);
+if music_title_in_room
+{
+	instance_destroy(oMusicPlayerTitleEnd);
+}
 
 audio_play_sound(mMain,10,false);
 
