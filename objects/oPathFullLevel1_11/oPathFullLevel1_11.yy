@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sLevel1Outline_11",
-    "path":"sprites/sLevel1Outline_11/sLevel1Outline_11.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
