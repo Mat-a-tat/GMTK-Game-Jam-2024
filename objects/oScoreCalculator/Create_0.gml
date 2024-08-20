@@ -1,16 +1,18 @@
 
-max_score = 15000; //Made up number, determine later.
+max_score = 9000; //Made up number, determine later.
 
 score_raw = global.score;
 
-score_raw_fraction = max_score / score_raw;
+score_raw_fraction = score_raw / max_score;
 
-final_score_percent = score_raw_fraction * 0.01;
+final_score_percent = round(score_raw_fraction * 100);
 
 //TODO if the player gets s higher score than the max scopre
 // they get a special msg that says
 //Congrats you beat the devs at their own game!
+/*
 if (final_score_percent > 100)
 {
 	special_end_msg = true;
 }
+*/
