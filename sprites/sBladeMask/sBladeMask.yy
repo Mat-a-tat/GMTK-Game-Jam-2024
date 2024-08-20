@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"sBladeMask",
   "bboxMode":0,
-  "bbox_bottom":279,
+  "bbox_bottom":269,
   "bbox_left":0,
-  "bbox_right":859,
+  "bbox_right":959,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -18,7 +18,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":280,
+  "height":270,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"7c90b2df-15e7-4a73-99e2-eb9658bb8476","blendMode":0,"displayName":"default","isLocked":false,"name":"7c90b2df-15e7-4a73-99e2-eb9658bb8476","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -94,5 +94,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":860,
+  "width":960,
 }
