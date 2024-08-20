@@ -86,7 +86,7 @@
     {"id":{"name":"oMinimapTrackerLevel","path":"objects/oMinimapTrackerLevel/oMinimapTrackerLevel.yy",},},
     {"id":{"name":"oMinimapTrackerMap","path":"objects/oMinimapTrackerMap/oMinimapTrackerMap.yy",},},
     {"id":{"name":"oMusicPlayerMain","path":"objects/oMusicPlayerMain/oMusicPlayerMain.yy",},},
-    {"id":{"name":"oMusicPlayerSecondary","path":"objects/oMusicPlayerSecondary/oMusicPlayerSecondary.yy",},},
+    {"id":{"name":"oMusicPlayerTitleEnd","path":"objects/oMusicPlayerTitleEnd/oMusicPlayerTitleEnd.yy",},},
     {"id":{"name":"oObstacleBubble","path":"objects/oObstacleBubble/oObstacleBubble.yy",},},
     {"id":{"name":"oObstacleShard","path":"objects/oObstacleShard/oObstacleShard.yy",},},
     {"id":{"name":"oPathFullLevel1_1","path":"objects/oPathFullLevel1_1/oPathFullLevel1_1.yy",},},
