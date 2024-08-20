@@ -14,6 +14,10 @@ moveDown = false;
 is_surfing = true;
 
 surf_spd = 4;
+slow_surf = 3;
+fast_surf = 5;
+base_surf = 4;
+
 
 //Acceleration
 max_spd = 5;

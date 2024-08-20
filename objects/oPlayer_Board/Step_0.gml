@@ -6,6 +6,18 @@ global.score = score;
 #region Basic Movement
 
 // Horizontal Movement
+if (keyboard_check_released (vk_left))
+{
+	surf_spd = slow_surf
+}
+else if (keyboard_check_released (vk_left))
+{
+	surf_spd = fast_surf
+}
+else
+{
+	surf_spd = base_surf
+}
 if is_surfing
 {
 	x += surf_spd;
