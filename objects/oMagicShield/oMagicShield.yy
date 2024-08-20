@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sMagicShield",
-    "path":"sprites/sMagicShield/sMagicShield.yy",
+    "name":"sMagicSheild",
+    "path":"sprites/sMagicSheild/sMagicSheild.yy",
   },
   "spriteMaskId":null,
   "visible":true,

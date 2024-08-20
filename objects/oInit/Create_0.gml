@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 // Score
 audio_stop_all();
 global.score = 0;

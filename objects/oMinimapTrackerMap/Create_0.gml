@@ -20,8 +20,3 @@ player_y_relative_height = 0 + oPlayer_Board.y;
 	// Sets the tracker spawn point to be relative to where the player is in the room
 x = oMinimap.minimap_width_x1;
 y = (player_y_relative_height / relative_y_percent) - 40;
-
-// show_debug_message(minimap_px_height);
-// show_debug_message(minimap_px_length);
-
-
