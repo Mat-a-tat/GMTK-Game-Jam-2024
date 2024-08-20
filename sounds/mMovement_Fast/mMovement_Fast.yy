@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"sndBubble_Pop",
+  "%Name":"mMovement_Fast",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.0,
-  "name":"sndBubble_Pop",
+  "duration":1.437506,
+  "name":"mMovement_Fast",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sndBubble_Pop.wav",
+  "soundFile":"mMovement_Fast.wav",
   "type":0,
   "volume":0.3,
 }

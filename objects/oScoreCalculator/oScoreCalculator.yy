@@ -9,8 +9,8 @@
   "name":"oScoreCalculator",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game",
-    "path":"folders/Objects/Game.yy",
+    "name":"EndGame and Credits Rooms",
+    "path":"folders/Objects/Game/EndGame and Credits Rooms.yy",
   },
   "parentObjectId":null,
   "persistent":false,
