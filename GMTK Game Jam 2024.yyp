@@ -182,6 +182,7 @@
     {"id":{"name":"sScoreCalculator","path":"sprites/sScoreCalculator/sScoreCalculator.yy",},},
     {"id":{"name":"sShard","path":"sprites/sShard/sShard.yy",},},
     {"id":{"name":"sTutorial","path":"sprites/sTutorial/sTutorial.yy",},},
+    {"id":{"name":"sTutorial2","path":"sprites/sTutorial2/sTutorial2.yy",},},
     {"id":{"name":"sUI","path":"sprites/sUI/sUI.yy",},},
   ],
   "resourceType":"GMProject",
