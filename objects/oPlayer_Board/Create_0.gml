@@ -23,9 +23,10 @@ accel_cap = .3;
 accel_increase = .01;
 last_v_direction = 0;
 
-grav_accel = .35
-grav_decay = .2
-lava_pushback = .1
+grav_accel = .35;
+grav_decay = .2;
+grav_max = 10;
+lava_pushback = .1;
 
 //Enviorment 
 

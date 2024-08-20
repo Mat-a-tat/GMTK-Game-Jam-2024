@@ -74,6 +74,13 @@ if (inst_bubble != noone)
 	instance_destroy(inst_bubble)
 	spd = 2 * max_spd
 }
+var inst_shard = instance_place(x, y+3, oObstacleShard);
+if (inst_shard != noone) 
+{
+	show_debug_message("Plop!");
+	instance_destroy(inst_shard)
+	spd = grav_max
+}
 
 // Variable for blade color changed in oBlade code
 if (place_meeting(x,y,oBlade))
