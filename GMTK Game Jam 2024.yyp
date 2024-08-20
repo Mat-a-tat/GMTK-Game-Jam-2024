@@ -21,7 +21,7 @@
     {"$GMFolder":"","%Name":"Level 10-12","folderPath":"folders/Objects/Enviorment/Path/Path Full/Level 10-12.yy","name":"Level 10-12","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Path Tiles","folderPath":"folders/Objects/Enviorment/Path/Path Tiles.yy","name":"Path Tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Game","folderPath":"folders/Objects/Game.yy","name":"Game","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"EndScreen and Credits Rooms","folderPath":"folders/Objects/Game/EndScreen and Credits Rooms.yy","name":"EndScreen and Credits Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Title End Screen and Credits Rooms","folderPath":"folders/Objects/Game/Title End Screen and Credits Rooms.yy","name":"Title End Screen and Credits Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"NPC","folderPath":"folders/Objects/NPC.yy","name":"NPC","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Objects/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Objects/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -57,6 +57,7 @@
   "name":"GMTK Game Jam 2024",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
     {"id":{"name":"oAvatar","path":"objects/oAvatar/oAvatar.yy",},},
     {"id":{"name":"oBlade","path":"objects/oBlade/oBlade.yy",},},
     {"id":{"name":"oBladeMask","path":"objects/oBladeMask/oBladeMask.yy",},},

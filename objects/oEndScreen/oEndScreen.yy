@@ -8,8 +8,8 @@
   "name":"oEndScreen",
   "overriddenProperties":[],
   "parent":{
-    "name":"EndScreen and Credits Rooms",
-    "path":"folders/Objects/Game/EndScreen and Credits Rooms.yy",
+    "name":"Title End Screen and Credits Rooms",
+    "path":"folders/Objects/Game/Title End Screen and Credits Rooms.yy",
   },
   "parentObjectId":null,
   "persistent":false,

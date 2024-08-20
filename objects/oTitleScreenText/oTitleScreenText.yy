@@ -10,8 +10,8 @@
   "name":"oTitleScreenText",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objects/UI.yy",
+    "name":"Title End Screen and Credits Rooms",
+    "path":"folders/Objects/Game/Title End Screen and Credits Rooms.yy",
   },
   "parentObjectId":null,
   "persistent":false,
