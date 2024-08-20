@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sLevel1Outline_12",
-    "path":"sprites/sLevel1Outline_12/sLevel1Outline_12.yy",
+    "name":"sLevel1Outline_1",
+    "path":"sprites/sLevel1Outline_1/sLevel1Outline_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
