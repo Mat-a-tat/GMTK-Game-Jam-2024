@@ -97,14 +97,20 @@ if (inst_bubble != noone)
 	show_debug_message("Pop!");
 	audio_play_sound(sndBubble_Pop,1,false);
 	instance_destroy(inst_bubble)
+	if (v_direction < 0)
+	{
 	spd = 2 * max_spd
+	}
 }
 var inst_shard = instance_place(x, y+3, oObstacleShard);
 if (inst_shard != noone) 
 {
 	show_debug_message("Plop!");
 	instance_destroy(inst_shard)
+	if (v_direction > 0)
+	{
 	spd = grav_max
+	}
 }
 
 // Variable for blade color changed in oBlade code

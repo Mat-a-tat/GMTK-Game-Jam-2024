@@ -6,8 +6,8 @@
   "name":"oCredits",
   "overriddenProperties":[],
   "parent":{
-    "name":"EndGame and Credits Rooms",
-    "path":"folders/Objects/Game/EndGame and Credits Rooms.yy",
+    "name":"EndScreen and Credits Rooms",
+    "path":"folders/Objects/Game/EndScreen and Credits Rooms.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,5 +1,3 @@
-x = room_width / 2;
-y = room_height / 2;
 
 max_score = 15000; //Made up number, determine later.
 

@@ -9,8 +9,8 @@
   "name":"oScoreCalculator",
   "overriddenProperties":[],
   "parent":{
-    "name":"EndGame and Credits Rooms",
-    "path":"folders/Objects/Game/EndGame and Credits Rooms.yy",
+    "name":"EndScreen and Credits Rooms",
+    "path":"folders/Objects/Game/EndScreen and Credits Rooms.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sScoreCalculator",
+    "path":"sprites/sScoreCalculator/sScoreCalculator.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 // Score
+audio_stop_all();
 global.score = 0;
 global.angle = 0;
 global.player_y =70;

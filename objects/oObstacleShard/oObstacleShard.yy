@@ -10,8 +10,8 @@
   "name":"oObstacleShard",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enviorment",
-    "path":"folders/Objects/Enviorment.yy",
+    "name":"Obstacles",
+    "path":"folders/Objects/Enviorment/Path/Obstacles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

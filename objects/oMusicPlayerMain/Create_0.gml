@@ -1,17 +1,17 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-if audio_is_playing(mTitle) or audio_is_playing(mTitleLoop)
+music_title_in_room = instance_exists(oMusicPlayerTitleEnd);
+if music_title_in_room
 {
-	audio_stop_all();
+	instance_destroy(oMusicPlayerTitleEnd);
 }
 
 audio_play_sound(mMain,10,false);
 
-
 audio_play_sound(mMovement_Med,10,true);
 
+play_main_music_loop = false;
+
 play_splash_sound = false;
+play_splash_sound2 = false;
 
 
 
