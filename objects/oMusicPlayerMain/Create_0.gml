@@ -5,10 +5,13 @@ if audio_is_playing(mTitle) or audio_is_playing(mTitleLoop)
 {
 	audio_stop_all();
 }
+
 audio_play_sound(mMain,10,false);
 
 
 audio_play_sound(mMovement_Med,10,true);
+
+play_splash_sound = false;
 
 
 

@@ -132,10 +132,14 @@ image_angle = global.angle;
 
 if (keyboard_check_pressed(ord("N")))
 {
+	audio_stop_all();
+	global.magic = 100;
 	room_goto_next();
 }
 if (keyboard_check_pressed(ord("B")))
 {
+	audio_stop_all();
+	global.magic = 100;
 	room_goto_previous();
 }
 // DEBUG Stop surfing
@@ -152,32 +156,10 @@ if keyboard_check_pressed(vk_shift)
 		break;
 	}
 }
-// DEBUG Skip Room/Return Room
-if keyboard_check_pressed(vk_enter)
-{
-	room_goto_next();
-}
-if keyboard_check_pressed(vk_backspace)
-{
-	room_goto_previous();
-}
 
 #endregion 
 
 
-if oPlayer_Board.y < oCreateBlades.blade_height - 5
-{
-	play_splash_sound = true;
-}
-
-if play_splash_sound == true
-{
-	if oPlayer_Board.y >= oCreateBlades.blade_height
-	{
-		audio_play_sound(sndLanding_Splash,1,false);
-		play_splash_sound = false;
-	}
-}
 
 
 
